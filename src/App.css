@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+.logo {
+  height: 55px;
+  padding: 10px;
+  background: #878585;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.menu {
+  height: 38px;
+  background-color: #d1d1d1;
+  border-radius: 50px 0px 0px 50px;
+  margin-left: 20px;
+  color: #454545;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  margin-top: 20px;
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.icon_dashboard {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.site-layout {
+  width: 252px;
+}
+
+.site-layout .site-layout-background {
+  background: #a1a1a1;
+  height: 32px;
+}
+
+.select_provinsi {
+  height: 56px;
+  width: 393px;
+  border-radius: 50px;
+  padding: 20px, 10px, 20px, 20px;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_search {
+  height: 50px;
+  width: 253px;
+  border-radius: 50px;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #878585;
+  color: #ffffff;
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  border: none;
+}
+
+.chart {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
 }
